@@ -34,25 +34,24 @@ const data = [
 
 const High = () => {
   return (
-    <section class="bg-brand-lightblue-200">
-      <div class="max-w-base mx-auto font-base text-center px-5 xl:px-24 py-12 md:py-28">
-        <h2 class="max-w-6xl mx-auto text-2xl md:text-4xl lg:text-5xl lg:leading-[3.625rem] font-bold">
+    <section className='bg-brand-lightblue-200'>
+      <div className='max-w-base mx-auto font-base text-center px-5 xl:px-24 py-12 md:py-28'>
+        <h2 className='max-w-6xl mx-auto text-2xl md:text-4xl lg:text-5xl lg:leading-[3.625rem] font-bold'>
           A high caliber remote team can help you reduce costs without missing
           your targets
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8 text-white mt-12">
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8 text-white mt-12'>
           {data.map((item) => (
             <div
               key={item.id}
-              className="bg-brand-green-200 rounded-lg text-center px-4 py-6"
-            >
-              <div className="w-16 h-16 mx-auto">
-                <Image src={item.img} alt="/" />
+              className='bg-brand-green-200 rounded-lg text-center px-4 py-6'>
+              <div className='w-16 h-16 mx-auto'>
+                <Image src={item.img} alt='/' />
               </div>
-              <h3 className="font-bold uppercase text-lg md:text-xl mt-3">
+              <h3 className='font-bold uppercase text-lg md:text-xl mt-3'>
                 {item.label}
               </h3>
-              <p className="max-w-lg mx-auto mt-5 text-sm">{item.text}</p>
+              <p className='max-w-lg mx-auto mt-5 text-sm'>{item.text}</p>
             </div>
           ))}
         </div>

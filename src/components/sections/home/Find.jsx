@@ -3,14 +3,14 @@ import Button from '@/components/shared/Button';
 
 const Find = () => {
   return (
-    <section class="bg-brand-green-100">
-      <div class="max-w-base mx-auto font-base text-white px-5 xl:px-28 py-12 md:py-24">
-        <div class="flex flex-col lg:flex-row justify-between items-center gap-6 shrink-0">
-          <div class="text-center lg:text-left">
-            <h3 class="font-bold text-2xl md:text-3xl lg:text-5xl">
+    <section className="bg-brand-green-100">
+      <div className="max-w-base mx-auto font-base text-white px-5 xl:px-28 py-12 md:py-24">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-6 shrink-0">
+          <div className="text-center lg:text-left">
+            <h3 className="font-bold text-2xl md:text-3xl lg:text-5xl">
               Find your next great opportunity!
             </h3>
-            <p class="max-w-xl mt-4">
+            <p className="max-w-xl mt-4">
               We are taking action to help our freelancers, our clients, and the
               people of the world—and so can you.
             </p>

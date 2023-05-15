@@ -53,17 +53,17 @@ const data = [
 const ProcessTeams = () => {
   return (
     <section>
-      <div class="max-w-base mx-auto font-base px-5 xl:px-24 py-12 md:py-28">
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-14 text-center sm:text-left mt-14">
+      <div className="max-w-base mx-auto font-base px-5 xl:px-24 py-12 md:py-28">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-14 text-center sm:text-left mt-14">
           {data.map((item) => (
-            <div key={item.id} class="relative">
-              <div class="w-16 h-16 mx-auto sm:mx-0 px-2 py-2 bg-brand-orange rounded-2xl">
-                <Image src={item.img} alt="icon" class="w-full h-full" />
+            <div key={item.id} className="relative">
+              <div className="w-16 h-16 mx-auto sm:mx-0 px-2 py-2 bg-brand-orange rounded-2xl">
+                <Image src={item.img} alt="icon" className="w-full h-full" />
               </div>
-              <h3 class="font-bold text-brand-dark-100 capitalize text-lg md:text-2xl mt-5">
+              <h3 className="font-bold text-brand-dark-100 capitalize text-lg md:text-2xl mt-5">
                 {item.label}
               </h3>
-              <p class="text-brand-gary leading-7 mt-5">{item.text}</p>
+              <p className="text-brand-gary leading-7 mt-5">{item.text}</p>
             </div>
           ))}
         </div>

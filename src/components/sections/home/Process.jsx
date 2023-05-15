@@ -60,38 +60,38 @@ const data = [
 
 const Process = () => {
   return (
-    <section class="bg-brand-lightblue-200">
-      <div class="max-w-base mx-auto font-base px-5 xl:px-24 py-12 md:py-28">
-        <div class="text-center text-brand-green-200">
-          <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl">
+    <section className="bg-brand-lightblue-200">
+      <div className="max-w-base mx-auto font-base px-5 xl:px-24 py-12 md:py-28">
+        <div className="text-center text-brand-green-200">
+          <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl">
             Our Process
           </h2>
-          <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl mt-3">
+          <h3 className="font-semibold text-2xl md:text-3xl lg:text-4xl mt-3">
             Get up and gunning with your Sales targets
           </h3>
-          <p class="max-w-4xl mx-auto text-lg md:text-xl mt-3">
+          <p className="max-w-4xl mx-auto text-lg md:text-xl mt-3">
             Our streamlined process ensures a hassle-free experience as you
             partner with Cosmic to unlock the potential of your remote sales
             dream team:
           </p>
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-14 text-center sm:text-left mt-14">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-14 text-center sm:text-left mt-14">
           {data.map((item) => (
-            <div key={item.id} class="relative">
-              <div class="w-16 h-16 mx-auto sm:mx-0 px-2 py-2 bg-brand-orange rounded-2xl">
-                <Image src={item.img} alt="icon" class="w-full h-full" />
+            <div key={item.id} className="relative">
+              <div className="w-16 h-16 mx-auto sm:mx-0 px-2 py-2 bg-brand-orange rounded-2xl">
+                <Image src={item.img} alt="icon" className="w-full h-full" />
               </div>
-              <h3 class="font-bold text-brand-dark-100 capitalize text-lg md:text-2xl mt-5">
+              <h3 className="font-bold text-brand-dark-100 capitalize text-lg md:text-2xl mt-5">
                 {item.label}
               </h3>
-              <p class="text-brand-gary leading-7 mt-5">{item.text}</p>
-              <div class="absolute right-4 bottom-0">
+              <p className="text-brand-gary leading-7 mt-5">{item.text}</p>
+              <div className="absolute right-4 bottom-0">
                 <Image src={item.bg} alt="number" />
               </div>
             </div>
           ))}
         </div>
-        <p class="font-bold text-center mt-12">
+        <p className="font-bold text-center mt-12">
           By following this structured process, Cosmic guarantees a smooth
           collaboration, allowing you to focus on achieving outstanding sales
           results while we handle the rest.

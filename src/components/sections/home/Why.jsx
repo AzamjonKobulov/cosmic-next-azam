@@ -4,14 +4,14 @@ import India from '../../../assets/images/home/img-india.svg';
 
 const Why = () => {
   return (
-    <section class="bg-white">
-      <div class="max-w-base mx-auto font-base px-5 xl:px-24 py-12 md:py-28">
-        <div class="grid xl:grid-cols-3 items-center">
-          <div class="xl:col-span-2 text-center xl:text-left">
-            <h3 class="font-bold text-3xl text-brand-green-200 md:text-4xl lg:text-5xl">
+    <section className="bg-white">
+      <div className="max-w-base mx-auto font-base px-5 xl:px-24 py-12 md:py-28">
+        <div className="grid xl:grid-cols-3 items-center">
+          <div className="xl:col-span-2 text-center xl:text-left">
+            <h3 className="font-bold text-3xl text-brand-green-200 md:text-4xl lg:text-5xl">
               Why India? (Or India Advantage)
             </h3>
-            <p class="font-bold md:text-lg lg:text-xl mt-6 md:mt-10">
+            <p className="font-bold md:text-lg lg:text-xl mt-6 md:mt-10">
               Choosing an India-based remote sales team offers numerous
               advantages for your organization. India&apos;s cost-effective, highly
               skilled workforce, strong education system, and large talent pool
@@ -26,8 +26,8 @@ const Why = () => {
               cost-saving benefits to help your business thrive.
             </p>
           </div>
-          <div class="max-w-lg mx-auto w-full">
-            <Image src={India} alt="india" class="w-full aspect-square" />
+          <div className="max-w-lg mx-auto w-full">
+            <Image src={India} alt="india" className="w-full aspect-square" />
           </div>
         </div>
       </div>

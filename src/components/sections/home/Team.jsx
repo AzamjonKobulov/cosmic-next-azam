@@ -123,15 +123,15 @@ const Team = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div class="relative mt-8 sm:mt-12 md:mt-10 lg:mt-14 flex space-x-10 justify-center z-30">
-          <button class="prev1 w-7 h-7 border-2 border-black rounded-full flex justify-center items-center">
+        <div className="relative mt-8 sm:mt-12 md:mt-10 lg:mt-14 flex space-x-10 justify-center z-30">
+          <button className="prev1 w-7 h-7 border-2 border-black rounded-full flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-4 h-4 text-black"
+              className="w-4 h-4 text-black"
             >
               0
               <path
@@ -142,14 +142,14 @@ const Team = () => {
             </svg>
           </button>
 
-          <button class="next1 w-7 h-7 border-2 border-black rounded-full flex justify-center items-center group">
+          <button className="next1 w-7 h-7 border-2 border-black rounded-full flex justify-center items-center group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-4 h-4 text-black"
+              className="w-4 h-4 text-black"
             >
               <path
                 stroke-linecap="round"

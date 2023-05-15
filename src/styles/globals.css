@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fixed__body {
+  overflow: hidden;
+}
+
+.swiper {
+  min-height: 440px;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-pagination {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  top: 97% !important;
+}
+
+.swiper-pagination2 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  top: 97% !important;
+}
+
+.swiper-pagination-bullets {
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.swiper-pagination-bullets2 {
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background-color: #626885 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px !important;
+  background-color: #366c49 !important;
+  border-radius: 4px !important;
+  transition: width 0.5s !important;
+}
+
+@media (max-width: 640px) {
+  .swiper-pagination {
+    top: 80% !important;
+  }
+}
+
+@media (max-width: 424px) {
+  .swiper-pagination {
+    top: 80% !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .swiper-pagination {
+    top: 90% !important;
+  }
+}

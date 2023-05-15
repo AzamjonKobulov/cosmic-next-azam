@@ -7,21 +7,26 @@
 }
 
 /* Swiper */
-
 .trusted-brands-swiper .swiper-slide {
   @apply !h-auto;
 }
 
 /* Pagination */
-.trusted-brands-swiper .swiper-pagination {
+
+.trusted-brands-swiper .swiper-pagination,
+.team-slider .swiper-pagination {
   @apply !-bottom-0.5 z-20;
 }
 
-.trusted-brands-swiper .swiper-pagination .swiper-pagination-bullet {
+.trusted-brands-swiper .swiper-pagination .swiper-pagination-bullet,
+.team-slider .swiper-pagination .swiper-pagination-bullet {
   @apply w-2 h-2 shrink-0 bg-[#626885] hover:bg-brand-green-100 transition-all duration-200;
 }
 
 .trusted-brands-swiper
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.team-slider
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
   @apply w-4 bg-brand-green-100 rounded-lg;
